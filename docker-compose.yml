@@ -5,7 +5,7 @@ services:
       target: runner
     container_name: landing_001k
     ports:
-      - "3000:3000"
+      - "80:3000"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
