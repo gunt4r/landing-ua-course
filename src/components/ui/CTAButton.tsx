@@ -15,7 +15,7 @@ interface CTAButtonProps {
 }
 
 export default function CTAButton({
-  href = "#payment",
+  href = "https://app.zenedu.io/l/p/cv0gRcPeJZlqGQCy",
   children,
   variant = "primary",
   size = "md",
@@ -30,7 +30,7 @@ export default function CTAButton({
     lg: "px-12 py-5 text-base",
     xl: 'px-16 py-6 text-lg',
   };
-
+  
   const content = (
     <motion.a
       href={href}

@@ -1,0 +1,3 @@
+aimodelsacademy.live {
+    reverse_proxy landing:3000
+}

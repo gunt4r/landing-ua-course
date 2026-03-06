@@ -62,3 +62,17 @@ build-archive.log
 /playwright/.cache/
 
 *.tar
+
+data/tokens.json
+
+# Environment
+.env.local
+.env*.local
+ 
+# Токены покупателей — не должны быть в git
+data/tokens.json
+ 
+# Next.js
+.next/
+out/
+node_modules/
